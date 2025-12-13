@@ -8,6 +8,6 @@ import java.util.Map;
 public class HelloController {
   @GetMapping("/api/hello")
   public Map<String, String> hello() {
-    return Map.of("message", "Hello from Spring Boot API!");
+    return Map.of("message", "Hello, This is demo of Docker and K8!");
   }
 }
